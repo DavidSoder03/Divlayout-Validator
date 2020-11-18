@@ -1,0 +1,117 @@
+body {
+	 font-family: Verdana; /*Textil för all text*/
+	 background-color: lightgrey; 
+	 background-image: url(https://c.wallhere.com/photos/c3/b3/girl_white_dress_wind_rectangular_hanging_facing_photo-767382.jpg!d); /*Bakgrundsbild*/
+  	 background-position: center center;
+ 	 background-repeat: no-repeat;  
+ 	 background-attachment: fixed; 
+	 background-size: cover; 
+}
+.parent{  /*container högst upp, "Arsenal Football Club"*/
+	width: 1500px;
+	height: 1000px;
+	overflow: hidden; 
+}
+.container{
+	border: 1px solid black; 
+	background-color: #333; 
+	width: 1040px; 
+	height: 100%;
+	overflow: hidden;
+}
+.header{
+	background-color: lightyellow; 
+	background-image:url(https://www.pngarts.com/files/1/Header-PNG-Download-Image.png); /*Bakgrundsbild för headern */
+	height: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	padding-top:10px; 
+	padding-bottom: 20px; 
+	padding-left: 15px; 
+	color:white;
+	overflow:hidden; 
+}
+.headerimg{ 
+	height:216px;
+}
+.menu{ /*För menu-containern*/
+	background-color:#333; 
+	height: 40px; 
+	padding-left: 5px; 
+}
+.menu a{ /*För länkarna*/
+	float:left; 
+	color: #f2f2f2; 
+	text-align: center; 
+	padding:10px 16px; 
+	text-decoration: none; 
+}
+.menu a:hover { /* När man håller musen över länkarna */
+	background: #ddd; 
+	color: black; 
+	transition:0.5s;
+
+}
+.body{
+	background-color: white; 
+	padding-left: 20px; 
+	padding-top	: 20px;
+	width: 720px; 
+	height: 80.7%; 
+}
+.maintext{ /*History - The Invincibles*/
+	width: 90%; 
+	float: left; 
+	padding: 5px; 
+	text-align: justify; 
+}
+#doggo{ 
+	float: left;
+ 	margin-right: 10px; 
+ 	margin-bottom: 5px;
+ 	border:solid black 1px;
+ 	padding: 2px; 
+ 	width: 40%
+}
+.footer{/*container längs ner*/
+	background-color: #B80E0E;
+	color: white;
+	height: 50px;
+	border: 1px black solid;
+	width: 100%; /* Bredd i relation med containern */
+	text-align: center;
+	font-family: Verdana;
+}
+.sidebar{
+	float: right;
+	background-color: #D51717;
+	width: 300px; 
+	height: 700px; /*Tar inte upp hela höjden*/
+	overflow:hidden; /* Döljer det som går utanför containern */
+}
+.sidebarheader{ /*För rubrikerna */
+	padding: 10px;
+}
+.sidebarimg{ /*För bilden */
+	width: 200px;
+	padding-left: 10px;
+}
+.sidebartext{ /* För texten */
+	font-size: 15px;
+	padding-left: 10px;
+}
+#left{ 
+	float:left; 
+}
+.imgleft{ /*Bilden i vänster hörn*/
+	width: 200px;
+	border: 2px red solid;
+}
+.imgright{ /*Bilden i högra hörnet*/
+	width: 200px;
+	border: 2px red solid;
+	height: 120px;
+}
+#right{ 
+	float: right;
+}
